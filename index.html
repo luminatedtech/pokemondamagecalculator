@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+                
+        <script defer src="index.js"> </script>
+        <link rel="stylesheet" href="mystyle.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Pokemon Move Damage Calculator</title>
+      </head>
+      <body>
+          <h1 style = "text-align: center;">Pokemon Move Damage Calculator</h1>
+        <div class="content">
+            <div class = "targetPokemon">
+                
+
+                <h2>
+                Target Pokemon
+                </h2>
+                <form class = "clear" id = "pokemonSearch">
+                    <label>Pokemon Name:</label><br>
+                    <input type="text" id="pokemonName"><br>
+                    <input type="submit" value="Submit">
+                  </form>
+                  <div id = "pokemonImageContainer">
+                      <img id = "pokemonSprite" src = "">
+                    
+                </div>
+                <p  id = "pokemon-type">
+
+                </p>
+
+
+            </div>
+
+            <div class = "move">
+                <h2>
+                    Pokemon Move
+                </h2>
+                <form class = "clear" id="pokemonMoveSearch">
+                    <label>Move Name:</label><br>
+                    <input type="text" id="moveName"><br>
+                    <input type="submit" value="Submit">
+                  </form>
+                  <p  id="moveData">   
+
+                  </p>
+                  
+
+
+
+            </div>
+
+
+            <div class ="damage">
+                <h2> Overall Damage</h2> 
+
+                <p id="totalDamage"> </p>
+                <input id ="clearButton" type="button" value = "Clear">
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+      </body>
+
+
+
+
+
+
+
+
+
+</html>
